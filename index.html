@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework 4</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="links">
+        <div class="logo"></div>
+        <a href="#/home">HOME</a>
+        <a href="#/products">PRODUCTS</a>
+      </div>
+
+      <div class="signin">
+        <input type="button" id="login" value="SIGN IN" />
+      </div>
+    </nav>
+
+    <div id="content"></div>
+    <footer>
+      <div class="top">
+        <div class="col">
+          <h3>About Nintendo</h3>
+          <ul>
+            <li>Company Info</li>
+            <li>Careers</li>
+            <li>CSR Report</li>
+            <li>IP Policy</li>
+            <li>Sitemap</li>
+          </ul>
+        </div>
+  
+        <div class="col">
+          <h3>Where to Buy</h3>
+          <ul>
+            <li>Game Store</li>
+            <li>Nintendo NY</li>
+            <li>Nintendo Store</li>
+            <li>Online Retailers</li>
+          </ul>
+        </div>
+  
+        <div class="col">
+          <h3>Support</h3>
+          <ul>
+            <li>Health and Safety Precautions</li>
+            <li>Warrenty</li>
+            <li>Nintendo Switch</li>
+            <li>Nintendo 3DS</li>
+            <li>Repair</li>
+            <li>Nintendo Product Recycling</li>
+          </ul>
+        </div>
+  
+        <div class="col">
+          <h3>Parents</h3>
+          <ul>
+            <li>Info for Parents</li>
+            <li>Parental Controls</li>
+          </ul>
+        </div>
+  
+        <div class="col">
+          <h3>Community</h3>
+          <ul>
+            <li>Community Guidelines</li>
+            <li>Online Safety Principles</li>
+          </ul>
+        </div>
+  
+        <div class="col col--spaced">
+          <div class="row">
+            <h3>Privacy</h3>
+            <ul>
+              <li>Privacy Policy</li>
+              <li>Cookies and Interest-Based Ads</li>
+            </ul>
+          </div>
+  
+          <div class="row">
+            <h3>Legal</h3>
+            <ul>
+              <li>Documents and Policies</li>
+              <li>Terms of Use</li>
+            </ul>
+          </div>
+      </div>
+      
+    </footer>
+
+    <div id="modal">
+      <div class="bground"></div>
+      <div class="callout">
+        <h1>SIGN IN:</h1>
+        <div class="row">
+          <label for="username">Username: </label>
+          <input type="text" name="username" id="username">
+        </div>
+        <div class="row">
+          <label for="password">Password: </label>
+          <input type="text" name="password" id="password">
+        </div>
+        <div class="row">
+          <input type="submit" id="submit" value="Submit">
+        </div>
+      </div>
+    </div>
+    <script src="lib/jquery-3.6.0.min.js"></script>
+    <script src="app/model.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="app/app.js"></script>
+  </body>
+</html>

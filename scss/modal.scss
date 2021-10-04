@@ -1,0 +1,46 @@
+#modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: fixed;
+  top: 0;
+
+  width: 100vw;
+  height: 100vh;
+
+  .bground {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  .callout {
+    width: 600px;
+    height: 400px;
+    background-color: white;
+
+    position: relative;
+    z-index: 99;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .row {
+      margin-bottom: 20px;
+      #submit {
+        height: 40px;
+        width: 80px;
+
+        font-size: 20px;
+        font-weight: bold;
+        background-color: $red;
+
+        border-radius: 5px;
+        border: none;
+        color: white;
+      }
+    }
+  }
+}

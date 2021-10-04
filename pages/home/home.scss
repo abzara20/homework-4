@@ -1,0 +1,63 @@
+.home {
+  width: 100%;
+  .top {
+    .hero {
+      width: 100%;
+      height: 580px;
+      background-image: url(../images/metroid-hero.webp);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .subtitle {
+      margin: 25px 0;
+      h1 {
+        padding-left: 20px;
+      }
+    }
+  }
+
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    .container {
+      width: 310px;
+      &__img {
+        width: 100%;
+        height: 170px;
+        margin-bottom: 10px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        &--hyrule {
+          background-image: url(../images/hyrule.jpg);
+        }
+        &--golf {
+          background-image: url(../images/golf.jpg);
+        }
+        &--eastward {
+          background-image: url(../images/eastward.jpg);
+        }
+        &--2k {
+          background-image: url(../images/2k.jpg);
+        }
+        &--fortnite {
+          background-image: url(../images/fortnite.webp);
+        }
+      }
+
+      &__text {
+        width: 100%;
+        height: 90px;
+        hr {
+          width: 110px;
+          color: $red;
+        }
+      }
+    }
+  }
+}

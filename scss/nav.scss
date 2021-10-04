@@ -1,0 +1,41 @@
+nav {
+  width: 100vw;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 50px;
+  border-bottom: 5px solid $red;
+  .links {
+    height: 100%;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    .logo {
+      height: 100%;
+      width: 165px;
+      //   background-color: aqua;
+      background-image: url(../images/nintendo-logo-large-red-white.webp);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin-right: 10px;
+    }
+    a {
+      text-decoration: none;
+      color: #000;
+    }
+  }
+
+  .signin {
+    height: 100%;
+    input {
+      width: 100px;
+      height: 100%;
+      font-size: 20px;
+      border: none;
+      background-color: $light-grey;
+    }
+  }
+}
